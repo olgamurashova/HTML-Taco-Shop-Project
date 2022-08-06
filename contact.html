@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <header>
     <section id="contact">
         <h1>Contact Us</h1>
         <nav aria-label="primary navigation">
@@ -24,6 +25,8 @@
             <figcaption>Little Taco Shop Tacos</figcaption>
         </figure>
     </section>
+</header>
+<main>
     <section id="form">
         <h2>Our Contact Form</h2>
         <form action="https://httpbin.org/get" method="get">
@@ -51,11 +54,14 @@
 
     <section id="Address">
         <h2>Our Address</h2>
-        <address>123 Tacoland, New York, NY 11374</address>
-        <p>Phone: 123-123-1212</p>
+        <address>123 Tacoland, New York, NY 11374
+            <br><br>
+        Phone: <a href="tel:123-123-1212">123-123-1212</a>
+    </address>
     </section>
 
     <p><a href="#">Back to Top</a></p>
+</main>
     <hr>
     <footer>
         <p>Copyright © The Little Taco Shop</p>
