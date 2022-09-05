@@ -5,7 +5,8 @@ In this broject I created a simple web page for Taco Shop using html and css.
 
 About Page
 
-![about](https://user-images.githubusercontent.com/89424060/188483313-bdb85b6d-8a71-4f73-bad7-e7a5b89b50bf.png)
+![about](https://user-images.githubusercontent.com/89424060/188483686-680291d3-af18-4411-ad94-8907cdc87371.png)
+
 
 Dark Mode
 
