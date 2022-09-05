@@ -10,7 +10,8 @@ About Page
 
 Dark Mode
 
-![DarkMode](https://user-images.githubusercontent.com/89424060/188482510-3d805df9-f88e-4ff5-bb7a-a07e2e59e2b4.png)
+![DarkMode](https://user-images.githubusercontent.com/89424060/188485004-f76573c2-265b-4a7c-94f4-ba71051f6f93.png)
+
 ### Tools & tech used:
 - Html
 - CSS
