@@ -7,28 +7,36 @@
     <title>Store Hours</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <header>
+    <header class="header">
     <section id="intro">
-        <h1>Little Taco Shop Hours</h1>
-        <nav aria-label="primary navigation">
-            <ul>
-                <li><a href="main.html#home" target="_blank">Home</a></li>
-                <li><a href="main.html#about" target="_blank">About Little Taco Shop</a></li>
-                <li><a href="main.html#menu" target="_blank">Our Menu</a></li>
-                <li><a href="contact.html" target="_blank">Contact Us</a></li>
+        <h1 class="header__h1">Little Taco Shop Hours</h1>
+        <nav  class="header__nav"
+        aria-label="primary navigation">
+            <ul class="header__ul">
+                <li><a href="main.html#home">Home</a></li>
+                
+                <li><a href="main.html#menu">Our Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
-            <figure>
-                <img src="images/tacos_tray_400x267.png" alt="tacos tray">
-                <figcaption>A Tray of Tasty Tacos</figcaption>
-            </figure>
+          
         </nav>
     </section>
 </header>
 
-    <hr>
-    <main>
+    <section class="hero">  
+        <figure>
+        <img src="images/tacos_tray_1000x667.png" alt="tacos tray">
+        <figcaption class="offscreen">A Tray of Tasty Tacos</figcaption>
+    </figure>
+</section>
+
+    <main class="main">
+        <section class="main__section">
+            <h2>Hours</h2>
     <p>We are open 7 days a week!</p>
         <dl>
             
@@ -37,12 +45,16 @@
             <dt>Friday - Saturday</dt>
             <dd><time datetime="11:00">11am</time> - <time datetime="23:00">11pm</time></dd>
         </dl>
-        <p><a href="#">Back to Top</a></p>
+      
+    </section>
     </main>
-    <hr>
-    <footer>
-        <p>Copyright © The Little Taco Shop</p>
-    </footer>
+    
+    <footer class="footer">
+        <p>
+            <span class="nowarp">Copyright © <time id="year"></time></time></span> 
+            <span class="nowrap">The Little Taco Shop</span> 
+        </p>
+       </footer>
     
 </body>
 </html>
